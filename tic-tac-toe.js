@@ -1,7 +1,7 @@
 
 
 window.addEventListener('DOMContentLoaded', () => {
-    const board = document.getElementById("Board");
-    const cells = board.querySelectorAll("div");
-    cells.forEach(cell => cell.className.add("square"));
-})
+    const board = document.getElementById('board');
+    const cells = board.querySelectorAll('div');
+    cells.forEach(cell => cell.classList.add('square'));
+});
