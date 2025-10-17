@@ -19,6 +19,16 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    cells.forEach((cell) =>{
+        cell.addEventListener('mouseover', () =>{
+            cell.classList.add('hover')
+        });
+
+        cell.addEventListener('mouseout', () =>{
+            cell.classList.remove('hover')
+        });
+    });
+
 
 
 
