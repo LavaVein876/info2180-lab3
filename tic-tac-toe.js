@@ -55,5 +55,9 @@ window.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    document.querySelector('.btn').addEventListener('click', () =>{
+        window.location.reload();
+    });
+
 
 });
